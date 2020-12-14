@@ -3,7 +3,7 @@ ai2img.js
 "Ai2src" that analyzes ai files and displays a preview image
 ### Installation ###
 
-<script src="ai2img.js"></script>
+    <script src="ai2img.js"></script>
 
 ### Usage ###
 Step 1:include ai2img.js in your page.
