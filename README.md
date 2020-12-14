@@ -1,9 +1,8 @@
 ai2img.js
-===
-"Ai2src" that analyzes ai files and displays a preview image
-### Installation ###
+v1.0.0
 
-    <script src="ai2img.js"></script>
+===
+"Ai2img.js" that analyzes ai files and displays preview images in HTML.
 
 ### Usage ###
 Step 1:include ai2img.js in your page.
