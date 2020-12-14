@@ -2,6 +2,7 @@ ai2img.js
 v1.0.0
 
 ===
+
 "Ai2img.js" that analyzes ai files and displays preview images in HTML.
 
 ### Usage ###
