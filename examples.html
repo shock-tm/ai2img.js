@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ai2img.js</title>
+    <meta http-equiv="Content-Script-Type" content="text/javascript;">
+    <meta http-equiv="Content-Style-Type" content="text/css;">
+</head>
+    <style>
+        *{
+            margin-bottom: 20px;
+        }
+        img{
+            height: 128px;
+        }
+    </style>
+<script src="ai2img.js"></script>
+<body>
+    <h1>"Ai2src" that analyzes ai files and displays a preview image</h1>
+    <div>
+        <h2>id specification. File path to src.</h2>
+        <img src="examples/IllustratorFile.ai" id="aiImg" alt="id specification. File path to src.">
+    </div>
+    <div>
+        <h2>class specification. File path to name.</h2>
+        <img name="examples/CanBadge-red.ai" class="aiImgs" alt="class specification. File path to name.">
+        <img name="examples/CanBadge-blue.ai" class="aiImgs" alt="class specification. File path to name.">
+    </div>
+    <div>
+        <h2>Click to display the ai file in all img tags.</h2>
+        <input type="button" value="click!" id="srcButton">
+        <br>
+        <img alt="no attr.">
+    </div>
+</body>
+<script>
+    ai2img({
+        target:"#aiImg",
+        attr:"src"
+    });
+    ai2img({
+        target:".aiImgs",
+        attr:"name"
+    });
+    document.getElementById("srcButton").onclick = function() { 
+        ai2img({
+            target:"img",
+            src:"examples/CanBadge-green.ai"
+        });
+    };
+</script>
+</html>
