@@ -50,6 +50,7 @@ Can optionally specify the ai file path.
 - Firefox  
 - Edge
 - IE 11+
+
 +unconfirmed
  - Safari  
 
