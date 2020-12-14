@@ -17,6 +17,7 @@ Step 2: Create an img tag and enter the ai file path in src or name.
     <img src="IllustratorFile.ai">
         
 Step 3: Run the script after reading the HTML.
+
     <script>
         ai2img({
             target:"#img01",
@@ -54,4 +55,5 @@ Can optionally specify the ai file path.
 
 ### License ###  
 You may use ai2img.js under the terms of the MIT License.
+
 [More information](http://en.wikipedia.org/wiki/MIT_License).
