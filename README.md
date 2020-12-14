@@ -8,7 +8,11 @@ https://github.com/shock-tm/ai2img.js
 
 "ai2img.js" that analyzes ai files and displays preview images in HTML.
 
-URL scheme must be “http” or “https” for CORS request.
+「ai2img.js」はaiファイルを分析してプレビュー画像をHTMLで表示させます。
+
+URL scheme must be "http" or "https".
+
+URLスキームは「http」または「https」である必要があります。
 
 ### Usage ###
 Step 1:include ai2img.js in your page.
