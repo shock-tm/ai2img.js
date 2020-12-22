@@ -1,6 +1,7 @@
 # ai2img.js
 
 shock tm
+
 https://adodtp.com/
 
 ===
@@ -9,6 +10,7 @@ https://adodtp.com/
 URL scheme must be "http" or "https".
 
 「ai2img.js」はaiファイルを分析してプレビュー画像をHTMLで表示させます。
+
 URLスキームは「http」または「https」である必要があります。
 
 ### Usage
@@ -51,7 +53,7 @@ Can optionally specify the ai file path.
         });
     </script>
 
-### Browser Support ###
+### Browser Support
 - Google Chrome  
 - Firefox  
 - Edge
@@ -60,6 +62,6 @@ Can optionally specify the ai file path.
 +unconfirmed
  - Safari  
 
-### License ###  
+### License 
 You may use ai2img.js under the terms of the MIT License.
 [More information](http://en.wikipedia.org/wiki/MIT_License)

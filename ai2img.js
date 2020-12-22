@@ -83,11 +83,11 @@ function ai2img(jsom){
         if(jsom["src"]!=undefined){
             const path=jsom["src"];
             var xhr=new XMLHttpRequest();
-            xhr.onreadystatechange = function() {
+            xhr.onreadystatechange=function() {
                 switch(xhr.readyState){
-                    case 4: // データ受信完了.
+                    case 4:
                         if(xhr.status==200||xhr.status==304){
-                            var letStr = xhr.responseText;
+                            var letStr=xhr.responseText;
                             var imgdata="data:image/jpeg;base64,";
                             const dpObj=new DOMParser();
                             const si=letStr.indexOf("<x:xmpmeta");
@@ -121,11 +121,11 @@ function ai2img(jsom){
                 const item=listItems.item(i);
                 const path=item.src;
                 var xhr=new XMLHttpRequest();
-                xhr.onreadystatechange = function() {
+                xhr.onreadystatechange=function() {
                     switch(xhr.readyState){
-                        case 4: // データ受信完了.
+                        case 4:
                             if(xhr.status==200||xhr.status==304){
-                                var letStr = xhr.responseText;
+                                var letStr=xhr.responseText;
                                 var imgdata="data:image/jpeg;base64,";
                                 const dpObj=new DOMParser();
                                 const si=letStr.indexOf("<x:xmpmeta");
@@ -158,11 +158,11 @@ function ai2img(jsom){
                 const item=listItems.item(i);
                 const path=item.name;
                 var xhr=new XMLHttpRequest();
-                xhr.onreadystatechange = function() {
+                xhr.onreadystatechange=function() {
                     switch(xhr.readyState){
-                        case 4: // データ受信完了.
+                        case 4:
                             if(xhr.status==200||xhr.status==304){
-                                var letStr = xhr.responseText;
+                                var letStr=xhr.responseText;
                                 var imgdata="data:image/jpeg;base64,";
                                 const dpObj=new DOMParser();
                                 const si=letStr.indexOf("<x:xmpmeta");
