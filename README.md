@@ -1,20 +1,17 @@
-ai2img.js
+# ai2img.js
 
-v1.0.0
-
-https://github.com/shock-tm/ai2img.js
+shock tm
+https://adodtp.com/
 
 ===
 
 "ai2img.js" that analyzes ai files and displays preview images in HTML.
-
-「ai2img.js」はaiファイルを分析してプレビュー画像をHTMLで表示させます。
-
 URL scheme must be "http" or "https".
 
+「ai2img.js」はaiファイルを分析してプレビュー画像をHTMLで表示させます。
 URLスキームは「http」または「https」である必要があります。
 
-### Usage ###
+### Usage
 Step 1:include ai2img.js in your page.
 
     <script src="ai2img.js"></script>
@@ -24,7 +21,7 @@ Step 2: Create an img tag and enter the ai file path in src or name.
     <img src="IllustratorFile.ai" id="img01">
     <img name="IllustratorFile.ai" class="imgs">
     <img src="IllustratorFile.ai">
-        
+
 Step 3: Run the script after reading the HTML.
 
     <script>
@@ -42,11 +39,11 @@ Step 3: Run the script after reading the HTML.
         });
     </script>
 
-### Options ###
+### Options
 Can optionally specify the ai file path.
 
     <img class="readLaters">
-    
+
     <script>
         ai2img({
             target:".readLaters",
@@ -65,5 +62,4 @@ Can optionally specify the ai file path.
 
 ### License ###  
 You may use ai2img.js under the terms of the MIT License.
-
-[More information](http://en.wikipedia.org/wiki/MIT_License).
+[More information](http://en.wikipedia.org/wiki/MIT_License)
