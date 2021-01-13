@@ -58,10 +58,8 @@ Can optionally specify the ai file path.
 - Google Chrome  
 - Firefox  
 - Edge
+- Safari
 - IE 11+
-
-+unconfirmed
- - Safari  
 
 ### License 
 You may use ai2img.js under the terms of the MIT License.
