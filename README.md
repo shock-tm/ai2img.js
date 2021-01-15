@@ -6,6 +6,8 @@ https://adodtp.com/
 
 ===
 
+[sample page](https://adodtp.com/sampleCode/ai2img/)
+
 "ai2img.js" that analyzes ai files and displays preview images in HTML.
 
 URL scheme must be "http" or "https".
